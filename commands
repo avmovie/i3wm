@@ -1,0 +1,8 @@
+ chromium --proxy-server="socks5://127.0.0.1:1080"
+how to disable touchpad in laptop?
+1. instll xinput 
+`sudo pacman -Syu extra/xorg-input`
+2. how to use xinput?
+> * xinput --list 
+> * xinput --set-prop 14 "Device Enable" 0
+
